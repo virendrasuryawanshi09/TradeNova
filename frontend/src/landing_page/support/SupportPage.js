@@ -8,10 +8,8 @@ import CreateTickit from './CreateTickit'
 function SupportPage() {
     return ( 
         <>
-            <Navbar />
             <Hero />
             <CreateTickit />
-            <Footer />
         </>
      );
 }

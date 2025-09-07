@@ -8,10 +8,8 @@ import Navbar from "../Navbar";
 function AboutPage() {
     return ( 
         <>
-            <Navbar />
             <Hero />
             <Team />
-            <Footer />
         </>
     );
 }
