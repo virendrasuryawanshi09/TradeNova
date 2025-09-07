@@ -9,12 +9,10 @@ import Hero from './Hero';
 function ProductsPage() {
     return ( 
         <>
-            <Navbar />
             <Hero />
             <LeftSection />
             <RightSection />
             <Universe />
-            <Footer />
         </>
      );
 }
