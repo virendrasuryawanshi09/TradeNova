@@ -48,3 +48,47 @@ code {
 .navbar .nav-link:hover::after {
   width: 100%;
 }
+#supportHero {
+  background-color: rgb(56, 126, 209);
+  color: white;
+  padding-bottom: 50px; /* adds spacing below the hero content */
+}
+
+#supportWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 150px;
+}
+
+/* Hero content styling */
+#supportHero .row.p-5 {
+  margin: 0 150px;
+}
+
+#supportHero input {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+#supportHero input::placeholder {
+  color: #555;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  #supportWrapper, #supportHero .row.p-5 {
+    margin: 0 30px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #supportHero .row.p-5 .col-md-6 {
+    margin-bottom: 30px;
+  }
+}
+
