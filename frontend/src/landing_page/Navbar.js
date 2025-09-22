@@ -8,9 +8,9 @@ function Navbar() {
         {/* 🔹 Logo */}
         <Link className="navbar-brand d-flex align-items-center" to="/">
           <img
-            src="media/images/logo.svg"
-            alt="Zerodha Logo"
-            style={{ width: "130px", objectFit: "contain" }}
+            src="media/images/logo.png"
+            alt="TradeNova Logo"
+            style={{ width: "150px", objectFit: "contain" }}
           />
         </Link>
 

@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import HomePage from './landing_page/home/HomePage';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import Signup from './landing_page/signup/Signup'
+import SignUp from './landing_page/auth/SignUp';
+import Login from './landing_page/auth/Login'; 
 import AboutPage from './landing_page/about/AboutPage'
 import ProductsPage from './landing_page/products/ProductsPage';
 import PricingPage from './landing_page/pricing/PricingPage'
@@ -18,7 +19,8 @@ root.render(
   <Navbar />
   <Routes>
     <Route path="/" element={<HomePage />}></Route>
-    <Route path="/signup" element={<Signup />}></Route>
+    <Route path="/signup" element={<SignUp/>}></Route>
+    <Route path="/login" element={<Login/>}></Route>
     <Route path="/about" element={<AboutPage />}></Route>
     <Route path="/products" element={< ProductsPage />}></Route>
     <Route path="/pricing" element={< PricingPage />}></Route>

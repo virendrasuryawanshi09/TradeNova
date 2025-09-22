@@ -6,7 +6,7 @@ function Footer() {
             <div className="container border-top mt-5">
                 <div className="row mt-5">
                     <div className="col">
-                        <img src="media/images/logo.svg" style={{ width: "50%" }} alt="TradeNova Logo" />
+                        <img src="media/images/logo.png" style={{ width: "50%" }} alt="TradeNova Logo" />
                         <p>&copy;2025, TradeNova Broking Ltd. <br />All rights reserved.</p>
                     </div>
                     <div className="col">
