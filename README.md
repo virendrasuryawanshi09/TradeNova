@@ -4,18 +4,6 @@ TradeNova is a full-stack stock trading platform inspired by **Zerodha**, built 
 This project is designed to replicate the core functionality of a modern trading application while following clean architecture and best development practices.
 
 TradeNova is a **paper-trading** platform created for learning and portfolio purposes only.
-
----
-
-## 🚀 Live Demo
-> _Coming soon_  
-(Add your deployed link here)
-
----
-
-## 🖼 Screenshots
-> Add screenshots of your app here (Dashboard, Login, Portfolio, Orders, etc.)
-
 ---
 
 ## ✨ Features
