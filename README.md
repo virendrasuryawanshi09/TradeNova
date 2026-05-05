@@ -1,8 +1,10 @@
 # TradeNova – Zerodha Clone
 
-TradeNova is a full-stack stock trading platform inspired by **Zerodha**, built using the **MERN stack (MongoDB, Express.js, React, Node.js)**.  
-This project is designed to replicate the core functionality of a modern trading application while following clean architecture and best development practices.
+TradeNova is a full-stack paper trading platform built using the MERN stack, designed to simulate real-world stock trading workflows with a clean, scalable architecture.
 
+Engineered to mirror core functionalities of platforms like Zerodha, TradeNova enables users to analyze stocks, execute trades, and manage portfolios in a realistic trading environment — without financial risk.
+
+This project demonstrates strong capabilities in full-stack development, REST API design, authentication systems, and state management, making it a production-style portfolio project.
 TradeNova is a **paper-trading** platform created for learning and portfolio purposes only.
 ---
 
